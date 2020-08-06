@@ -1,0 +1,102 @@
+
+body{
+	background-color: black;
+	color: white;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.LIST {
+	background-color: blueviolet;
+	color: lime;
+
+}
+
+.LIST ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;	
+	font-size: 0px;
+}
+
+.LIST ul li {
+	padding: 16px;
+	text-align: center;
+	font-size: 1.5rem;
+	border-bottom: solid black;	
+	transition: background-color 0.2s;
+}
+
+.LIST ul li:hover {
+	background-color: yellow;
+	color: black;
+
+}
+
+.IMG-AREA {
+	background-image:url(WORLD.jpg);
+	background-color: black;
+	background-position: center center;
+	background-size: cover;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.IMG-TEXT{
+	text-align: center;
+	background-color: purple;
+	color: lime;
+	font-size: 2rem;
+	max-width: 1020px;
+	margin: 0px auto;
+	padding: 0px 16px;
+	border: solid greenyellow;
+}
+
+.INTRO-TEXT{
+	max-width: 1020px;
+	margin: 0px auto;
+	color: aqua;
+	font-size: 2rem;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+.SINGLE-SERVICE{
+	text-align: center;
+	margin bottom: 32px;
+
+}
+
+.SINGLE-SERVICE p {
+	padding: 0px 16px;
+	color: aqua;
+
+}
+
+@media screen and (min-width: 700px){
+	.LIST ul {
+		text-align: right;
+	}
+
+	.LIST ul li {
+		display: inline-block;
+		border-bottom: 0px;
+		border-left:  solid black;
+	}
+
+	.IMG-TEXT{
+		max-width: 100%;
+	}
+
+	.SINGLE-SERVICE {
+		width: 50%;
+		float: left;
+	}
+
+}

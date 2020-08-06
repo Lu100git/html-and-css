@@ -1,0 +1,86 @@
+
+
+body{
+	background-color: black;
+	color: white;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.LIST {
+	background-color: blueviolet;
+	color: lime;
+
+}
+
+
+.LIST ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.LIST ul li {
+	padding: 16px;
+	text-align: center;
+	font-size: 1.5rem;
+	border-bottom: solid black;
+	transition: background-color 0.2s;
+}
+
+.LIST ul li:hover {
+	background-color: lime;
+	color: black;
+
+}
+
+
+.IMG-AREA {
+	background-image:url(WORLD.jpg);
+	/*if for some reason img does not apear we can change the background color*/
+	background-color: black;
+	/*   double typed center for left and right positioning*/
+	background-position: center center;
+	background-size: cover;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.IMG-TEXT{
+	text-align: center;
+	background-color: purple;
+	color: lime;
+	font-size: 2rem;
+/*theese settings are for the boxed area outside the text, this is still the text tag tho*/
+	max-width: 1020px;
+	margin: 0px auto;
+	padding: 0px 16px;
+	border: solid greenyellow;
+}
+
+.INTRO-TEXT{
+	max-width: 1020px;
+	margin: 0px auto;
+	color: aqua;
+	font-size: 2rem;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+.SINGLE-SERVICE{
+	text-align: center;
+	margin bottom: 32px;
+
+}
+
+.SINGLE-SERVICE p {
+	padding: 0px 16px;
+	color: aqua;
+
+}
